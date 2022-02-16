@@ -1,26 +1,29 @@
 <div *ngIf="showPage">
   <app-navbar [highlight]="'leaderboard'"></app-navbar>
-  <div class="card" style="margin: 20px; padding: 10px;">
+  <div class="card">
       <div class="card-body">
+      <img class="lb-img" src="\assets\leaderboard.png">
       <h3 class="card-title" style="text-align: center;">Leaderboard</h3>
-      <table class="table table-striped">
-          <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Name</th>
-            <th scope="col">City</th>
-            <th scope="col">Score</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr *ngFor="let user of usersOnLeaderboard; index as i">
-            <th scope="row">{{ i + 1 }}</th>
-            <td>{{ user.username }}</td>
-            <td>{{ user.city }}</td>
-            <td>{{ user.score }}</td>
-          </tr>
-          </tbody>
-        </table>
+      <div class="table-wrapper">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th id="uname" scope="col">Name</th>
+              <th scope="col">City</th>
+              <th scope="col">Score</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let user of usersOnLeaderboard; index as i">
+              <td scope="row">{{ i + 1 }}</td>
+              <td>{{ user.username }}</td>
+              <td>{{ user.city }}</td>
+              <td>{{ user.score }}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
   
     </div>

@@ -6,14 +6,50 @@
     justify-content: center;
 }
 
-.item{
-    width:700px;
-    margin-top: 20px;
-    border-radius: 25px;
+.profilecenter{
+    margin:0 auto;
+    padding:0;
+    width:1000px;
 }
 
-a{
-    margin-right: 20px;    
+.rating{
+    width:  1000px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.rating button{
+    font-size: 5px;
+    background-color: rgb(248, 19, 19);
+    border-color: rgb(255, 255, 255);
+    opacity: 0.7;
+    float: right;
+}
+
+.rating button:hover{
+        cursor: pointer;
+        opacity: 0.5;
+}
+
+.alert{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 230, 176);
+    border-color: rgb(133, 133, 133);
+}
+
+.alert-link{
+    text-decoration: underline;
+}
+
+
+.aprofile{
+    float: left;
+    line-height: 147px;
+    max-height: fit-content;
 }
 
 @media screen and (max-width: 800px){

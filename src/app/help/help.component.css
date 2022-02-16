@@ -1,17 +1,36 @@
 .card{
-    padding: 20px;
+    margin-top: 30px;
+    padding: 30px;
+    margin-bottom: 50px;
 }
 
+.card em{
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(255, 206, 44);
+}
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-@media screen and (max-width: 800px){
-    h3{
-        font-size: 1.4rem;
-    }
+@media screen and (max-width: 00px){
     h5{
         font-size: 1.4rem;
     }
+}
+
+.help-space{
+    margin-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.help-space h4{
+    font-size: 1.1rem;
+}
+
+.help-game h3{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
 }

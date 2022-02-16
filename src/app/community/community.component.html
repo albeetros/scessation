@@ -1,5 +1,11 @@
-<div *ngIf="showPage">
+<div class="communitycenter" *ngIf="showPage">
     <app-navbar [highlight]="'community'"></app-navbar>
+    <div class="community-create">
+        <h4>Create a post:</h4>
+    </div>
     <app-create-post></app-create-post>
+    <div class="community-space">
+        <h1>Community Forum</h1>
+    </div>
     <app-forum></app-forum>
 </div>

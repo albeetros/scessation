@@ -1,0 +1,10 @@
+.card-body button{
+    background-color: rgb(255, 226, 164);
+    border-color: rgb(155, 155, 155);
+    color: black;
+}
+
+.card-body button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}

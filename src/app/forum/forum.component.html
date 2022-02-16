@@ -1,6 +1,6 @@
 <!-- *ngFor="let post of posts;" -->
 
-<div class="card" *ngFor="let post of posts;" style="margin:30px; padding: 30px;">
+<div class="card" *ngFor="let post of posts;">
     <h3>{{post.title}}</h3>
     <p><small>Posted by {{post.user.username}} on {{formatDate(post.dateTime)}}</small></p>
     <p>{{post.body}}</p>

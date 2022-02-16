@@ -1,5 +1,7 @@
 .card-img-top{
-    width: 10rem;
+    margin-top: 10px;
+    width: 9rem;
+    border-radius: 50%;
 }
 
 .card{
@@ -16,14 +18,51 @@
     padding-bottom: 0px;
 }
 
+.card-body h3{
+    text-align: center;
+}
+
+#user{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.card-body h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(128, 128, 128);
+    
+}
+
+.card-body p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-shadow: none;
+}
+
+#date{
+    font-weight: bold;
+}
+
+#city{
+    display: inline;
+    font-weight: bold;
+}
+
+#rank{
+    display: inline;
+    font-weight: bold;
+}
+
 .badge-list{
-    padding: 20px;
-    padding-top: 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     height: fit-content;
+    margin-top: -25px;
 }
 
 .badge-list img{
